@@ -60,4 +60,13 @@ When taking the mean of ALL 9th grade scores in the district, exluding Thomas Hi
 
 ![Type Analysis](https://github.com/cbeckler/school-district-analysis/blob/main/Resources/type.png)
 
+## Summary
 
+Though small, there are four changes to the results that may be highlighted:
+
+1) The most important would be a minor drop in the overall passing rate for the district, which fell 0.3% from 65.2 to 64.9. As before, the numbers of students with passing scores in both math and reading were divided by the total number of students--and for the new analysis, the Thomas High 9th graders were excluded from the total count to ensure consistency, since their scores were dropped. Though minor, the overall passing rate for the district had been raised slighty by the potentially fradulent scores.
+2) Again looking at the district analysis, it looks like within the overall passing rate, the math scores were affected slightly more than the reading scores. The math passing rate dropped 0.2% from 75.0 to 74.8, while the reading passing rate dropped 0.1%, from 85.8 to 85.7.
+3) For Thomas High School itself, the overall passing rate dropped 0.3%, from 90.9 to 90.6. As with the overall average, the Thomas High 9th graders were excluded from the student body count for calculations. The 0.3% drop mirrors the results in the district level data.
+4) However, interestingly, in contrast to the district results, in Thomas High the reading passing rates were more affected by dropping the 9th grade scores than the math passing rates. The reading passing rate dropped 0.3% from 97.3 to 97.0, while the math passing rate dropped 0.1% from 93.3 to 93.2. This suggests that Thomas High School may carry more impact on district math scores than it does on reading, since if the impact of the different types of scores was 1:1 with the district, you would expect math rates to drop more steeply than reading in both, rather than in the district only.
+
+The full analysis of the school district scores with the Thomas High 9th grade scores dropped may be found [here](https://github.com/cbeckler/school-district-analysis/blob/main/PyCitySchools_Challenge.ipynb).
